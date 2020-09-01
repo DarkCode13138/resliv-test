@@ -1,0 +1,29 @@
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+.row{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+
+}
+.title__wrap{
+    position: relative;
+}
+.input__status{
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.red {
+    color: red;
+}

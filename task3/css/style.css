@@ -1,0 +1,29 @@
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+.row{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+}
+.button__wrap{
+    display: flex;
+    justify-content: center;
+}
+.container_user{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.first-users{
+    margin-right:20px;
+}

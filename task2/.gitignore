@@ -1,0 +1,66 @@
+### MODX ###
+.htpasswd
+/.htaccess
+/core/cache/*
+!/core/cache/.gitkeep
+
+node_modules/
+
+/core/import/*
+/core/export/*
+
+/assets/templates/js/app.min-rec.js
+
+
+# Config files
+/config.core.php
+/manager/config.core.php
+/connectors/config.core.php
+/core/config/config.inc.php
+/connectors/index2.php
+
+# Navicat ntunnel
+ntunnel_mysql.php
+
+# Misc unused files
+/*.txt
+~*.php
+*.log
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+### PhpStorm ###
+.idea/workspace.xml
+
+## File-based project format:
+*.iws
+
+# IntelliJ
+/out/
+
+.idea/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### PhpStorm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml 
+# *.ipr

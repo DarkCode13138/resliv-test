@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  display: block;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+header{
+  width: 100%;
+  background: #000;
+}
+.header__nav-wrap{
+  display: flex;
+}
+.header__nav-link{
+  padding: 20px 30px;
+  color: #ffffff;
+}
+.header__nav-link:hover{
+ color: #4ED16B;
+  transition: .3s;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.user-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.UserElement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.User-wrap{
+  width: calc((100% - 80px) / 5 );
+  margin-right: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.User-wrap:nth-child(5n){
+  margin-right: 0;
+}
+.name,.avatar,.email,.lastname{
+  margin-bottom: 4px;
+}
+.close_btn{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.close_btn svg{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.close_btn svg:hover{
+  fill: #5a5a5a;
+  transition: .3s;
+}
+.form-wrap{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.row-wrap{
+  display: flex;
+  flex-direction: column;
+}
+.avatar img{
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+}
+/*.header__nav-link.active{*/
+/*  color: #4ED16B;*/
+/*}*/
